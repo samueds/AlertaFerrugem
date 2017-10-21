@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alerta Ferrugem</string>
+    <color name="blue">#96d0ff</color>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

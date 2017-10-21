@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id= "@+id/periodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Confirmar remoção ?"
+        android:textSize="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar!"
+            />
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sair!"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

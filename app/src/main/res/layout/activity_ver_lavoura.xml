@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/nomeLav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Lavoura: " />
+
+
+
+    <TextView
+        android:id="@+id/sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado atual da lavoura: "
+        android:gravity="center"
+        android:textSize="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        >
+        <TextView
+            android:id="@+id/cor"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:gravity="center"
+            android:layout_weight="0.76"
+            android:textSize="40dp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Dias para terminar o tratamento: "
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Tratar lavoura"
+        />
+
+
+    <Button
+        android:id="@+id/excluir"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="Excluir lavoura" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="66dp"
+
+        android:text="voltar" />
+
+</LinearLayout>

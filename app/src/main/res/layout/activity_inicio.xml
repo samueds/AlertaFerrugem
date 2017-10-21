@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Recomendação inicial: O APP  não substitui o acompanhamento técnico
+seguido de receituário agronômico realizado por um Engenheiro Agrônomo.
+A intenção do APP FERRUGEM CAFÉ é servir como ferramenta de alerta de ferrugem para produtores rurais,
+indicando o risco de uma incidência de ferrugem em sua lavoura cafeeira e
+facilitar o trabalho de Engenheiros Agrônomos e/ou técnicos responsáveis."
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        />
+
+
+
+</LinearLayout>
